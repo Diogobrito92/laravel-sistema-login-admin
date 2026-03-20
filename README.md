@@ -17,9 +17,17 @@ Projeto desenvolvido com Laravel com foco em autenticação, controle de acesso 
 - MySQL
 - Tailwind CSS
 
-## 📸 Preview
+## 📸 Imagens
 
-(Soon...)
+Página Inicial
+[Página Inicial - Login](image.png)
+[Página Inicial - Cadastro](image-1.png)
+[Verificação de campo vazio no login](image-6.png)
+[Página de Usuário](image-2.png)
+[Página de editar perfil](image-3.png)
+[Página de editar perfil](image-4.png)
+[Página de confirmação de exclusão de conta](image-5.png)
+
 
 ## 🚀 Como rodar
 
