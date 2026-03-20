@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,13 +28,11 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-// 🔐 ROTAS ADMIN (AGRUPADAS E ORGANIZADAS)
+// 🔐 ROTAS ADMIN
 Route::middleware(['auth', 'admin'])->prefix('admin')->group(function () {
 
     // Dashboard admin
-    Route::get('/', function () {
-        return "Área do ADMIN 🔥";
-    })->name('admin.dashboard');
+    Route::get('/', [AdminController::class, 'index'])->name('admin.dashboard');
 
     // CRUD de usuários
     Route::get('/users', [UserController::class, 'index'])->name('users.index');

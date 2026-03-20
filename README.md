@@ -27,7 +27,7 @@ Página Inicial
 [Página de editar perfil](image-3.png)
 [Página de editar perfil](image-4.png)
 [Página de confirmação de exclusão de conta](image-5.png)
-
+[Página do Admin](image-7.png)
 
 ## 🚀 Como rodar
 
